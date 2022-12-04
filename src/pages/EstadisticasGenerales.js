@@ -7,10 +7,10 @@ export default function EstadisticasGenerales() {
         <>
             <h2>Estadísticas Generales</h2>
             <Typography></Typography>
-            <Box sx={{width:'100%', display: 'flex', flexDirection:'row'}}>
+            <Box sx={{width:1350, display: 'flex', flexDirection:'row'}}>
                 <Box sx={{width: '30%', display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
                     <img width='100%' src='https://res.cloudinary.com/djxxgphqp/image/upload/v1670130919/plots/imagen00_j2roud.png'/>
-                    <Typography sx={{width: '90%'}} textAlign={'center'}>Ditribución de los ingresos totales declarados</Typography>
+                    <Typography sx={{width: '90%'}} textAlign={'center'}>Distribución de los ingresos totales declarados</Typography>
                 </Box>
                 <Box sx={{width: '30%', display: 'flex', alignItems: 'center'}}>
                     <img width='100%' src='https://res.cloudinary.com/djxxgphqp/image/upload/v1670130919/plots/imagen02_rdyyyi.jpg'/>
@@ -18,6 +18,20 @@ export default function EstadisticasGenerales() {
                 </Box>
                 <Box sx={{width: '30%', display: 'flex', alignItems: 'center'}}>
                     <img width='100%' src='https://res.cloudinary.com/djxxgphqp/image/upload/v1670130919/plots/imagen01_ljirpt.jpg'/>
+                    <Typography></Typography>
+                </Box>
+            </Box>
+            <Box sx={{width:1350, display: 'flex', flexDirection:'row', mt:3}}>
+                <Box sx={{width: '30%', display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
+                    <img width='100%' src='https://res.cloudinary.com/djxxgphqp/image/upload/v1670183098/plots/imagen_general_vehiculos_2_xnoudn.png'/>
+                    <Typography sx={{width: '90%'}} textAlign={'center'}>Distribución de los precios de vehículos declarados</Typography>
+                </Box>
+                <Box sx={{width: '30%', display: 'flex', alignItems: 'center'}}>
+                    <img width='100%' src='https://res.cloudinary.com/djxxgphqp/image/upload/v1670183098/plots/imagen_general_vehiculos_1_bqxrjo.png'/>
+                    <Typography></Typography>
+                </Box>
+                <Box sx={{width: '30%', display: 'flex', alignItems: 'center'}}>
+                    <img width='100%' src='https://res.cloudinary.com/djxxgphqp/image/upload/v1670183098/plots/imagen_general_vehiculos_0_thoyun.png'/>
                     <Typography></Typography>
                 </Box>
             </Box>
